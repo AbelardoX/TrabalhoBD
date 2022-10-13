@@ -1,0 +1,82 @@
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+    background-image: linear-gradient(to right, rgb(129, 188, 236),rgb(6, 130, 207),rgb(117, 1, 148));
+ 
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+}
+legend{
+    background-color:dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: center;    
+}
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px; 
+    width: 20%;
+    color: white;
+}
+.inputBox{
+    position:relative;
+}
+.inputUser{
+    background: none;
+    border: none; 
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+/*botao de envio */
+#submit{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    color:whitesmoke;
+    background-image: linear-gradient(40deg, #4571c7,#fa78f2 );
+    cursor: pointer;    
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172),rgb(80, 19, 194));
+}
+#update{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(197, 108, 0),rgb(90, 20, 220));
+    cursor: pointer;    
+}
+#update:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172),rgb(80, 19, 194));
+}

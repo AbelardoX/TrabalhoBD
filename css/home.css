@@ -1,0 +1,49 @@
+/*
+--> FORMATAÇÃO DESATIVADA - SUBSTITUIDA PELA PAGINA DE SISTEMA <---
+*/
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(117, 1, 148));
+    color: white;
+    text-align: center;
+     
+ }
+.navbar-brand{
+    color: white;
+}
+.table-bg{
+    background: rgba(0,0,0, 0.3);
+    border-radius: 15px 15px 0 0;
+
+}
+
+.btn{
+    color:rgb(242, 245, 247);
+}
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: 1%; 
+
+}
+
+.box{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:50%;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px; 
+ 
+}/*
+a{
+    text-decoration: nome;
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid rgb(0, 144, 254);
+}
+a:hover{
+    background-color:rgb(0, 144, 254);
+}*/
